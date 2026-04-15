@@ -10,7 +10,14 @@ const withPWA = withPWAInit({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Your other Next.js config options here
+  async rewrites() {
+    return [
+      {
+        source: '/:path((?!api|_next|_vercel|.*\\..*).*)',
+        destination: '/fr/:path*',
+      },
+    ];
+  },
 };
 
 // @ts-ignore
