@@ -16,6 +16,8 @@ interface InventoryItem {
   minThreshold: number | null;
 }
 
+
+
 export default function InventoryDashboard({ items }: { items: InventoryItem[] }) {
   const t = useTranslations('Inventory');
   const [localItems, setLocalItems] = useState(items);
