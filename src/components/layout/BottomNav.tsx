@@ -1,19 +1,18 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
-import { Link, usePathname } from '@/i18n/routing';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { Home, ClipboardList, Package, CircleDollarSign, Layers } from 'lucide-react';
 
 export default function BottomNav() {
-  const t = useTranslations('Navigation');
   const pathname = usePathname();
 
   const navItems = [
-    { label: t('home'), href: '/', icon: Home },
-    { label: t('batches'), href: '/batches', icon: Layers },
-    { label: t('tracking'), href: '/tracking', icon: ClipboardList },
-    { label: t('inventory'), href: '/inventory', icon: Package },
-    { label: t('sales'), href: '/sales', icon: CircleDollarSign },
+    { label: 'Accueil', href: '/', icon: Home },
+    { label: 'Lots', href: '/batches', icon: Layers },
+    { label: 'Suivi', href: '/tracking', icon: ClipboardList },
+    { label: 'Stocks', href: '/inventory', icon: Package },
+    { label: 'Ventes', href: '/sales', icon: CircleDollarSign },
   ];
 
   return (
@@ -25,7 +24,7 @@ export default function BottomNav() {
         return (
           <Link 
             key={item.href} 
-            href={item.href as "/" | "/batches" | "/tracking" | "/inventory" | "/sales"} 
+            href={item.href} 
             className={`flex flex-col items-center gap-1 transition-colors ${
               isActive ? 'text-primary' : 'text-muted-foreground'
             }`}

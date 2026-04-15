@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import { db } from '@/db';
 import SaleForm from '@/components/forms/SaleForm';
 
