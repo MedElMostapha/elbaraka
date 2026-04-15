@@ -1,0 +1,66 @@
+{
+  "Dashboard": {
+    "title": "Tableau de Bord",
+    "activeBatches": "Lots Actifs",
+    "dailyLogs": "Suivi Journalier",
+    "inventory": "Stocks",
+    "sales": "Ventes",
+    "debts": "Dettes"
+  },
+  "Batches": {
+    "title": "Gestion des Lots",
+    "newBatch": "Créer un nouveau lot",
+    "name": "Nom du lot",
+    "breed": "Race",
+    "arrivalDate": "Date d'arrivée",
+    "initialQuantity": "Quantité initiale",
+    "costPerChick": "Coût par poussin",
+    "save": "Enregistrer le lot"
+  },
+  "Inventory": {
+    "title": "Gestion des Stocks",
+    "lowStock": "Stock Faible",
+    "categories": {
+      "feed": "Aliment",
+      "medicine": "Médicaments",
+      "packaging": "Emballage"
+    }
+  },
+  "Sales": {
+    "title": "Nouvelle Vente",
+    "newSale": "Enregistrer une vente",
+    "batch": "Lot",
+    "client": "Client",
+    "quantity": "Quantité",
+    "unitPrice": "Prix Unitaire",
+    "total": "Total",
+    "amountPaid": "Montant Payé",
+    "confirmSale": "Confirmer la vente",
+    "wholesale": "En gros",
+    "retail": "Détail"
+  },
+  "DailyTracking": {
+    "title": "Suivi Journalier",
+    "batch": "Lot",
+    "selectBatch": "Sélectionner un lot",
+    "placeholderBatch": "Choisir un lot...",
+    "mortality": "Mortalité",
+    "feedKg": "Aliment (Kg)",
+    "waterL": "Eau (L)",
+    "medication": "Médicaments / Vaccins",
+    "placeholderMed": "Nom du médicament...",
+    "notes": "Notes",
+    "placeholderNotes": "Observations...",
+    "saveEntry": "Enregistrer l'entrée",
+    "submit": "Valider",
+    "successMessage": "Données enregistrées avec succès",
+    "errorMessage": "Erreur lors de l'enregistrement"
+  },
+  "Navigation": {
+    "home": "Accueil",
+    "batches": "Lots",
+    "tracking": "Suivi",
+    "inventory": "Stocks",
+    "sales": "Ventes"
+  }
+}

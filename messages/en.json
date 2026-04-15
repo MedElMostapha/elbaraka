@@ -1,0 +1,32 @@
+{
+  "Dashboard": {
+    "title": "Dashboard",
+    "activeBatches": "Active Batches",
+    "dailyLogs": "Daily Tracking",
+    "inventory": "Inventory",
+    "sales": "Sales",
+    "debts": "Debts"
+  },
+  "DailyTracking": {
+    "title": "Daily Tracking",
+    "batch": "Batch",
+    "selectBatch": "Select Batch",
+    "placeholderBatch": "Choose a batch...",
+    "mortality": "Mortality",
+    "feedKg": "Feed (Kg)",
+    "waterL": "Water (L)",
+    "medication": "Medication / Vaccines",
+    "placeholderMed": "Medication name...",
+    "notes": "Notes",
+    "placeholderNotes": "Observations...",
+    "saveEntry": "Save Entry",
+    "submit": "Submit"
+  },
+  "Navigation": {
+    "home": "Home",
+    "batches": "Batches",
+    "tracking": "Tracking",
+    "inventory": "Inventory",
+    "sales": "Sales"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "Dashboard": {
+    "title": "لوحة التحكم",
+    "activeBatches": "الأفواج النشطة",
+    "dailyLogs": "المتابعة اليومية",
+    "inventory": "المخزون",
+    "sales": "المبيعات",
+    "debts": "الديون"
+  },
+  "Batches": {
+    "title": "إدارة الأفواج",
+    "newBatch": "إنشاء فوج جديد",
+    "name": "اسم الفوج",
+    "breed": "السلالة",
+    "arrivalDate": "تاريخ الوصول",
+    "initialQuantity": "الكمية الأولية",
+    "costPerChick": "تكلفة الكتكوت",
+    "save": "حفظ الفوج"
+  },
+  "Inventory": {
+    "title": "إدارة المخزون",
+    "lowStock": "مخزون منخفض",
+    "categories": {
+      "feed": "العلف",
+      "medicine": "الأدوية",
+      "packaging": "التعبئة"
+    }
+  },
+  "Sales": {
+    "title": "بيع جديد",
+    "newSale": "تسجيل عملية بيع",
+    "batch": "الفوج",
+    "client": "الزبون",
+    "quantity": "الكمية",
+    "unitPrice": "سعر الوحدة",
+    "total": "المجموع",
+    "amountPaid": "المبلغ المدفوع",
+    "confirmSale": "تأكيد البيع",
+    "wholesale": "بالجملة",
+    "retail": "بالتقسيط"
+  },
+  "DailyTracking": {
+    "title": "المتابعة اليومية",
+    "batch": "الفوج",
+    "selectBatch": "اختر الفوج",
+    "placeholderBatch": "اختر فوجاً...",
+    "mortality": "النفوق (موت)",
+    "feedKg": "العلف (كلغ)",
+    "waterL": "الماء (لتر)",
+    "medication": "الأدوية / اللقاحات",
+    "placeholderMed": "اسم الدواء...",
+    "notes": "ملاحظات",
+    "placeholderNotes": "ملاحظات إضافية...",
+    "saveEntry": "تسجيل البيانات",
+    "submit": "تأكيد",
+    "successMessage": "تم حفظ البيانات بنجاح",
+    "errorMessage": "خطأ أثناء الحفظ"
+  },
+  "Navigation": {
+    "home": "الرئيسية",
+    "batches": "الأفواج",
+    "tracking": "المتابعة",
+    "inventory": "المخزون",
+    "sales": "المبيعات"
+  }
+}
